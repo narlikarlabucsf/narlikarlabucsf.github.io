@@ -1,0 +1,43 @@
+---
+layout: default
+title: Home
+nav_key: home
+permalink: /
+---
+  <div class="hero">
+    <div style="max-width:1200px;margin:0 auto;position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;">
+      <!-- Logo: left column, large -->
+      <div>
+        <img src="{{ '/assets/images/narlikar-lab.jpg' | relative_url }}" alt="Narlikar Lab" style="width:100%;max-width:580px;display:block;">
+      </div>
+      <!-- Text panel: right column -->
+      <div style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);padding:2.5rem 2rem;text-align:center;">
+        <div class="hero-eyebrow" style="margin-bottom:0.75rem;">University of California, San Francisco</div>
+        <h1 style="font-size:clamp(1.3rem,2vw,2rem);font-weight:400;margin-bottom:1.25rem;line-height:1.2;">Understanding Chromatin Regulation</h1>
+        <p class="hero-desc" style="margin:0 0 2rem;font-size:0.95rem;">The Narlikar Lab asks fundamental questions about chromatin structure and function using a variety of biochemical and biophysical approaches.</p>
+        <div class="hero-cta-row" style="justify-content:center;">
+          <a class="btn-primary" href="{{ '/research/' | relative_url }}">Our Research</a>
+          <a class="btn-outline" href="{{ '/publications/' | relative_url }}">Recent Publications</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="news-section">
+    <div class="section-inner">
+      <div class="section-label">Lab News</div>
+      <h2 class="section-title">Recent Highlights</h2>
+      <div class="news-grid">
+        {%- comment %} Cards come from _data/news.yml {% endcomment %}
+        {%- for item in site.data.news %}
+        <a class="news-card" href="{{ item.link }}" target="_blank" rel="noopener">
+          <div class="news-date">{{ item.date }}</div>
+          <div class="news-title">{{ item.title }}</div>
+          <p class="news-body">{{ item.body | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+          <span class="news-tag">{{ item.tag }}</span>
+        </a>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+
+{% include join-banner.html heading="Join the Lab" button="Get in Touch" style="margin-top:0;" %}

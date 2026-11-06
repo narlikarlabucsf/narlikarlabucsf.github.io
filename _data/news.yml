@@ -1,0 +1,20 @@
+# "Recent Highlights" cards on the Home page, shown in this order.
+# "body" may use Markdown, e.g. *Science* for italics.
+
+- date: "2025"
+  title: "Autoinhibition imposed by a large conformational switch of INO80 regulates nucleosome positioning"
+  body: "Kaur & Wu et al. discover a new auto-inhibition-based mechanism that regulates INO80's response to flanking DNA length. Published in *Science*."
+  link: https://pubmed.ncbi.nlm.nih.gov/40674492/
+  tag: "View on PubMed →"
+
+- date: "2025"
+  title: "HMGB1 deforms nucleosomal DNA to generate a dynamic chromatin environment"
+  body: "Saunders et al. show that HMGB1 counteracts the activity of linker histone by co-occupying a nucleosome and loosening H1's grip. Published in *Science Advances*."
+  link: https://pubmed.ncbi.nlm.nih.gov/40815652/
+  tag: "View on PubMed →"
+
+- date: "2025"
+  title: "ATP-dependent remodeling of chromatin condensates reveals distinct mesoscale outcomes"
+  body: "Moore et al. demonstrate how remodeling activity regulates the properties of condensed chromatin. Published in *Science*."
+  link: https://pubmed.ncbi.nlm.nih.gov/41037607/
+  tag: "View on PubMed →"

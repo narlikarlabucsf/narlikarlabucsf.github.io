@@ -1,0 +1,54 @@
+# Lab alumni, shown at the bottom of the Lab Members page.
+# Categories and names appear in the order listed here.
+
+- category: "Postdoctoral Scholars"
+  names:
+    - "Bassem Al-Sady"
+    - "Un Seng Chio"
+    - "Laura Hsieh"
+    - "Stephanie Johnson"
+    - "Serena Sanulli"
+    - "Susan Shih"
+    - "Kalyan Sinha"
+    - "Emily Wong"
+    - "Hao Wu (collaborator, Yifan Cheng lab)"
+
+- category: "Graduate Students"
+  names:
+    - "Daniele Canzio"
+    - "Evelyn Chang"
+    - "Georgette Charles"
+    - "Nathan Gamarra"
+    - "Muryam Gourdet"
+    - "R. Stefan Isaac"
+    - "Upneet Kaur"
+    - "Madeline Keenen"
+    - "Adam Larson"
+    - "John Leonard III"
+    - "Camille Moore"
+    - "Elise Muñoz"
+    - "Peretz Partensky"
+    - "Lisa Racki"
+    - "Claire Rowe"
+    - "Hayden Saunders"
+    - "Caitlin Stoddard"
+    - "Janet Yang"
+    - "Coral Zhou"
+
+- category: "Administrative & Research Staff"
+  names:
+    - "Amanda Habel"
+    - "Tracy Lou"
+    - "Koy Saeteurn"
+    - "Elena Sevastopoulos"
+    - "Tina Shahian-Madrid"
+
+- category: "Master's Students"
+  names:
+    - "Gülcin Dindar"
+
+- category: "Visiting Scientists"
+  names:
+    - "Jason Brickner"
+    - "Donna Brickner"
+    - "Ranjith Padinhateeri"

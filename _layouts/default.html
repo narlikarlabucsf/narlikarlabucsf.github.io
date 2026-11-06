@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.nav_key == "home" %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="icon" href="data:,">
+</head>
+<body>
+{%- assign current = site.data.navigation | where: "key", page.nav_key | first %}
+
+<nav>
+  <a class="nav-brand" href="{{ '/' | relative_url }}">Narlikar <span>Lab</span></a>
+  <div class="nav-dropdown" id="main-dropdown">
+    <button class="nav-dropdown-btn" id="dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
+      {% if current %}{{ current.label }}{% else %}Menu{% endif %}
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <ul class="nav-dropdown-menu" id="dropdown-menu">
+      {%- for item in site.data.navigation %}
+      <li><a href="{{ item.url | relative_url }}" id="nav-{{ item.key }}"{% if item.key == page.nav_key %} class="active" aria-current="page"{% endif %}>{{ item.label }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</nav>
+
+<div id="page-{{ page.nav_key }}" class="page active">
+{{ content }}
+</div>
+
+<!-- FOOTER -->
+<footer style="background:var(--navy);color:rgba(255,255,255,0.6);padding:2.5rem 3rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;font-size:0.8rem;font-weight:300;">
+  <div>© 2026 Narlikar Lab, UCSF</div>
+  <div><a href="https://www.google.com/maps/search/600+16th+Street+UCSF+Mission+Bay+Genentech+Hall+San+Francisco+CA" target="_blank" style="color:rgba(255,255,255,0.5);text-decoration:none;">600 16th Street, Genentech Hall N414, San Francisco, CA 94158</a></div>
+</footer>
+
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+</html>

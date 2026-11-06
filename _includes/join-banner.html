@@ -1,0 +1,10 @@
+{%- comment -%}
+  "Join the lab" banner.
+  Parameters: heading, button (button text), style (optional inline style).
+  Example: {% include join-banner.html heading="Join Our Team" button="Get in Touch" %}
+{%- endcomment -%}
+  <div class="join-banner"{% if include.style %} style="{{ include.style }}"{% endif %}>
+    <h2>{{ include.heading }}</h2>
+    <p>We are always looking for talented and curious scientists to join us.<br><br>We welcome inquiries about postdoctoral and research technician positions. Entering UCSF graduate students interested in the lab are welcome to reach out about rotations.</p>
+    <a class="btn-primary" href="{{ '/contact/' | relative_url }}">{{ include.button }}</a>
+  </div>

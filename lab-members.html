@@ -1,0 +1,52 @@
+---
+layout: default
+title: Lab Members
+nav_key: team
+permalink: /lab-members/
+---
+  <div class="page-header">
+    <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;">
+      <div>
+        <h1>Lab Members</h1>
+      </div>
+      <div>
+        <img src="{{ '/assets/images/narlikar-lab-group-photo.jpg' | relative_url }}" alt="Narlikar Lab group photo" style="width:100%;display:block;border:3px solid rgba(255,255,255,0.15);">
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-inner">
+{% comment %} Current members come from _data/members.yml {% endcomment %}
+      {%- for group in site.data.members %}
+
+      <div class="team-section">
+        <div class="team-section-title">{{ group.section }}</div>
+        <div class="team-grid">
+          {%- for member in group.members %}
+          {% include member-card.html member=member %}
+          {%- endfor %}
+        </div>
+      </div>
+      {%- endfor %}
+
+{% comment %} Alumni come from _data/alumni.yml {% endcomment %}
+      <div class="team-section">
+        <div class="team-section-title">Alumni</div>
+        {%- for cat in site.data.alumni %}
+
+        <div class="alumni-cat">
+          <div class="alumni-cat-label">{{ cat.category }}</div>
+          <div class="alumni-names">
+            {%- for name in cat.names %}
+            {{ name }}{% unless forloop.last %}<br>{% endunless %}
+            {%- endfor %}
+          </div>
+        </div>
+        {%- endfor %}
+      </div>
+
+    </div>
+  </section>
+
+{% include join-banner.html heading="Join Our Team" button="Get in Touch" %}

@@ -1,0 +1,39 @@
+# Site settings for the Narlikar Lab website.
+# After changing this file, restart `jekyll serve` to see the change locally.
+# (GitHub Pages rebuilds the site automatically when you push.)
+
+title: Narlikar Lab @ UCSF
+description: >-
+  The Narlikar Lab at UCSF asks fundamental questions about chromatin
+  structure and function using a variety of biochemical and biophysical
+  approaches.
+
+# The base hostname of the site, with no trailing slash, for example
+# "https://narlikarlab.github.io" or, with a custom domain,
+# "https://narlikarlab.ucsf.edu". GitHub Pages fills this in automatically
+# if it is left empty; it is not used for any links on the pages.
+url: "https://narlikarlabucsf.github.io"
+
+# The sub-path the site is served from, with a leading slash and no trailing
+# slash. Leave it as "" for a user/organisation site (https://NAME.github.io/)
+# or a custom domain. For a project site (https://NAME.github.io/REPO/) set it
+# to "/REPO", e.g. baseurl: "/narlikarlab". Every internal link uses
+# `| relative_url`, so changing this one value is all that is needed.
+baseurl: ""
+
+# Use no theme: the site has its own layout and stylesheet. (GitHub Pages
+# otherwise applies jekyll-theme-primer, whose assets/css/style.scss would
+# collide with this site's assets/css/style.css.)
+theme: null
+
+markdown: kramdown
+kramdown:
+  # Keep straight quotes and apostrophes (e.g. "INO80's") exactly as typed
+  # instead of converting them to curly quotes.
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

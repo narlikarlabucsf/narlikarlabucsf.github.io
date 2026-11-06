@@ -1,0 +1,64 @@
+# Current lab members, shown on the Lab Members page.
+# Sections and members appear in the order listed here.
+# See README.md for the meaning of each field.
+
+- section: "Principal Investigator"
+  members:
+    - name: "Geeta J. Narlikar"
+      role: "Principal Investigator"
+      photo: geeta-j-narlikar.jpg
+      bio: "View full profile →"
+      link: /pi/
+
+- section: "Administrative & Research Staff"
+  members:
+    - name: "Stephanie Sia"
+      role: "Executive Assistant"
+      photo: stephanie-sia.jpg
+      bio: "Stephanie is an Admin Manager/Executive Assistant to the Chair in the Biochemistry & Biophysics department at UCSF. She provides administrative support to Geeta and the Narlikar lab."
+    - name: "Julia Tretyakova"
+      role: "Lab Manager"
+      photo: julia-tretyakova.jpg
+
+- section: "Graduate Students"
+  members:
+    - name: "Kate (Ziling) Zhou"
+      role: "Graduate Student"
+      photo: kate-ziling-zhou.jpg
+      bio: "Kate is a Ph.D. candidate in the Tetrad Graduate Program. She is interested in uncovering the RSC (Remodels the Structure of Chromatin) complex's remodeling outcome in various genomic contexts using genetic, biochemical, and biophysical approaches."
+    - name: "Kamel Awayda"
+      role: "Graduate Student"
+      photo: kamel-awayda.jpg
+      bio: "Kamel is an MD/PhD student at UCSF with interests in biochemistry and global health. His thesis project explores the mechanisms of linker histone H1 paralogs in forming chromatin that is refractory to remodeler-mediated and spontaneous dynamics."
+    - name: "Aaron Corin"
+      role: "Graduate Student (co-mentored with Vijay Ramani)"
+      photo: aaron-corin.jpg
+      bio: "Aaron is a Ph.D. candidate in the Tetrad Graduate Program, co-mentored by Dr. Vijay Ramani at the Gladstone Institutes. His work is focused on understanding how chromatin remodelers, transcription factors, and other nuclear proteins cooperate to organize chromatin across length scales."
+    - name: "Keerthi Renduchintala"
+      role: "Graduate Student"
+      photo: keerthi-renduchintala.jpg
+      bio: "Keerthi is a Biophysics Ph.D. student interested in how chromatin remodeling enzymes function within crowded environments. She is interested in biophysical approaches to study how these enzymes act on and within condensates to regulate chromatin states underlying gene expression."
+
+- section: "Postdoctoral Fellows"
+  members:
+    - name: "Siyuan Du"
+      role: "Postdoctoral Fellow"
+      photo: siyuan-du.jpg
+      bio: "Siyuan's research focuses on deciphering heterochromatin function and regulatory mechanisms using biochemistry and cryo-electron tomography. She completed her Ph.D. at Stanford University, where she studied enzyme catalytic mechanisms."
+    - name: "Blanche Chen"
+      role: "Postdoctoral Fellow"
+      photo: blanche-chen.jpg
+      photo_position: "center 18%"
+      bio: "Blanche is a postdoctoral researcher at UCSF with interests in chromatin biology and epigenetics. Her project focuses on how chromatin packaging regulates the functioning of pioneer transcription factors."
+
+- section: "Collaborators"
+  members:
+    - name: "Trase Aguigam"
+      role: "Collaborating Graduate Student (John Gross Lab)"
+      photo: trase-aguigam.jpg
+
+- section: "Visiting Professors"
+  members:
+    - name: "Janet Yang"
+      role: "University of San Francisco"
+      photo: janet-yang.jpg

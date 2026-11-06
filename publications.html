@@ -1,0 +1,38 @@
+---
+layout: default
+title: Publications
+nav_key: publications
+permalink: /publications/
+---
+  <div class="page-header">
+    <div style="max-width:1100px;margin:0 auto;">
+      <h1>Publications</h1>
+      <p>Selected publications from the Narlikar Lab. For a complete list, see <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Narlikar+Geeta" target="_blank" style="color:var(--teal);">PubMed</a>.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-inner">
+      <div class="pubs-list">
+{% comment %}
+  Papers come from _data/publications.yml. They are numbered automatically,
+  counting down: the first paper listed gets the total count, the last gets 1.
+{% endcomment %}
+        {%- assign pub_number = 0 -%}
+        {%- for group in site.data.publications -%}
+          {%- assign pub_number = pub_number | plus: group.papers.size -%}
+        {%- endfor -%}
+        {%- for group in site.data.publications %}
+
+        <div class="pub-year-group">
+          <div class="pub-year">{{ group.year }}</div>
+          {%- for paper in group.papers %}
+          <div class="pub-item"><div class="pub-num">{{ pub_number }}</div><div><div class="pub-title">{{ paper.title }}</div><div class="pub-authors">{{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div><div class="pub-journal">{{ paper.journal }}{% if paper.pmid %} &nbsp;<a href="https://pubmed.ncbi.nlm.nih.gov/{{ paper.pmid }}/" target="_blank" style="font-size:0.78rem;color:var(--teal);text-decoration:none;">[PubMed]</a>{% endif %}</div></div></div>
+          {%- assign pub_number = pub_number | minus: 1 -%}
+          {%- endfor %}
+        </div>
+        {%- endfor %}
+
+      </div>
+    </div>
+  </section>

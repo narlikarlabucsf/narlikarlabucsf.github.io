@@ -1,0 +1,20 @@
+{%- comment -%}
+  One member card on the Lab Members page. Parameter: member (from _data/members.yml).
+  A member with a bio gets the flip card (bio on the back); without one, a plain card.
+  A member with a link is wrapped in a link to that page.
+{%- endcomment -%}
+{%- assign m = include.member -%}
+{%- capture img -%}<img src="{{ '/assets/images/' | append: m.photo | relative_url }}" alt="{{ m.name | escape }}" loading="lazy"{% if m.photo_position %} style="object-position: {{ m.photo_position }};"{% endif %}>{%- endcapture -%}
+{%- capture inner -%}
+{%- if m.bio -%}
+<div class="member-avatar flip"><div class="flip-inner"><div class="flip-front">{{ img }}</div><div class="flip-back">{{ m.bio }}</div></div></div>
+{%- else -%}
+<div class="member-avatar">{{ img }}</div>
+{%- endif -%}
+<div class="member-name">{{ m.name }}</div><div class="member-role">{{ m.role }}</div>
+{%- endcapture -%}
+{%- if m.link -%}
+<a href="{{ m.link | relative_url }}" class="member-card" style="cursor:pointer;text-decoration:none;display:block;">{{ inner }}</a>
+{%- else -%}
+<div class="member-card">{{ inner }}</div>
+{%- endif -%}

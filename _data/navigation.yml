@@ -1,0 +1,20 @@
+# Items in the dropdown menu, in order. "key" must match the nav_key in the
+# front matter of the page the item links to.
+- key: home
+  label: Home
+  url: /
+- key: research
+  label: Research
+  url: /research/
+- key: pi
+  label: Principal Investigator
+  url: /pi/
+- key: team
+  label: Lab Members
+  url: /lab-members/
+- key: publications
+  label: Publications
+  url: /publications/
+- key: contact
+  label: Contact
+  url: /contact/

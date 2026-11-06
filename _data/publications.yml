@@ -1,0 +1,316 @@
+# Publications, newest first, grouped under the year headings shown on the page.
+# Numbers are NOT stored here: the site numbers papers automatically
+# (the top paper gets the highest number, the bottom one gets 1).
+# In "authors", wrap lab members in **double asterisks** to show them in bold.
+
+- year: "2025"
+  papers:
+    - title: "HMGB1 deforms nucleosomal DNA to generate a dynamic chromatin environment counteracting the effects of linker histone"
+      authors: "**Hayden S. Saunders**, **Un Seng Chio**, **Camille M. Moore**, Vijay Ramani, Yifan Cheng and **Geeta J Narlikar**"
+      journal: "Science Advances, 11(33):eads4473 (2025)"
+      pmid: 40815652
+
+    - title: "ATP-dependent remodeling of chromatin condensates reveals distinct mesoscale outcomes"
+      authors: "**Camille Moore**, **Emily Wong**, **Upneet Kaur**, **Un Seng Chio**, **Ziling Zhou**, Megan Ostrowski, Ke Wu, Iryna Irkliyenko, Sean Wang, Vijay Ramani and **Geeta J Narlikar**"
+      journal: "Science, 390(6768):eadr0018 (2025)"
+      pmid: 41037607
+
+    - title: "Autoinhibition imposed by a large conformational switch of INO80 regulates nucleosome positioning"
+      authors: "**Upneet Kaur**, **Hao Wu**, Yifan Cheng and **Geeta J. Narlikar**"
+      journal: "Science, 389(6757):eadr3831 (2025)"
+      pmid: 40674492
+
+    - title: "Understanding how genetically encoded tags and crowding agents affect phase separation by heterochromatin protein HP1α"
+      authors: "**Ziling Kate Zhou**, Kibeom Hong, Bo Huang and **Geeta J Narlikar**"
+      journal: "Cell Rep Methods, 5:101029 (2025); DOI: 10.1016/j.crmeth.2025.101029"
+      pmid: 40262618
+
+- year: "2024"
+  papers:
+    - title: "Functionalized graphene-oxide grids enable high-resolution cryo-EM structures of the SNF2h-nucleosome complex without crosslinking"
+      authors: "**Un Seng Chio**, Eugene Palovcak, Anton A.A. Smith, Henriette Autzen, **Elise N. Muñoz**, Zanlin Yu, Feng Wang, David Agard, Jean-Paul Armache, **Geeta J. Narlikar** and Yifan Cheng"
+      journal: "Nature Communications, 15:2225 (2024)"
+      pmid: 38472177
+
+- year: "2023"
+  papers:
+    - title: "Nucleosome density shapes kilobase-scale regulation by a mammalian chromatin remodeler"
+      authors: "Nour J. Abdulhay, **Laura J. Hsieh**, Colin P. McNally, Megan S. Ostrowski, **Camille M. Moore**, Mythili Ketavarapu, Sivakanthan Kasinathan, Arjun S. Nanda, Ke Wu, **Un Seng Chio**, **Ziling Zhou**, Hani Goodarzi, **Geeta J. Narlikar** & Vijay Ramani"
+      journal: "Nature Structural and Molecular Biology, 30:1571–1581 (2023)"
+      pmid: 37696956
+
+    - title: "Reorientation of INO80 on hexasomes reveals basis for mechanistic versatility"
+      authors: "**Hao Wu**, **Elise N Muñoz**, **Laura J Hsieh**, **Un Seng Chio**, **Muryam A Gourdet**, **Geeta J Narlikar**, Yifan Cheng"
+      journal: "Science, 381(6655):319–324 (2023)"
+      pmid: 37384669
+
+- year: "2022"
+  papers:
+    - title: "ATP Hydrolysis Coordinates the Activities of Two Motors in a Dimeric Chromatin Remodeling Enzyme"
+      authors: "**Stephanie L. Johnson**, **Geeta J. Narlikar**"
+      journal: "Journal of Molecular Biology, 434(14):167653 (2022)"
+      pmid: 35659534
+
+    - title: "Satellite repeat transcripts modulate heterochromatin condensates and safeguard chromosome stability in mouse embryonic stem cells"
+      authors: "Clara Lopes Novo, **Emily V Wong**, Colin Hockings, Chetan Poudel, Eleanor Sheekey, Meike Wiese, Hanneke Okkenhaug, Simon J Boulton, Srinjan Basu, Simon Walker, Gabriele S Kaminski Schierle, **Geeta J Narlikar**, Peter J Rugg-Gunn"
+      journal: "Nature Communications, 13(1):3525 (2022)"
+      pmid: 35725842
+
+    - title: "A hexasome is the preferred substrate for the INO80 chromatin remodeling complex, allowing versatility of function"
+      authors: "**Laura J Hsieh**, **Muryam A Gourdet**, **Camille M Moore**, **Elise N Muñoz**, **Nathan Gamarra**, Vijay Ramani, **Geeta J Narlikar**"
+      journal: "Molecular Cell, 82(11):2098–2112.e4 (2022)"
+      pmid: 35597239
+
+- year: "2021"
+  papers:
+    - title: "Histone dynamics play a critical role in SNF2h-mediated nucleosome sliding"
+      authors: "**Gamarra N**, **Narlikar GJ**"
+      journal: "Nature Structural and Molecular Biology, 28:548–551 (2021)"
+      pmid: 34226739
+
+    - title: "Generation and Biochemical Characterization of Phase-Separated Droplets Formed by Nucleic Acid Binding Proteins: Using HP1 as a Model System"
+      authors: "**Sanulli S**, **Narlikar GJ**"
+      journal: "Current Protocols, 1(5):e109 (2021)"
+      pmid: 33950570
+
+    - title: "Is transcriptional regulation just going through a phase?"
+      authors: "**Narlikar GJ**, Myong S, Larson D, Maeshima K, Francis N, Rippe K, Sabari B, Strader L, Tjian R"
+      journal: "Molecular Cell, 81(8):1579–1585 (2021)"
+      pmid: 33861943
+
+    - title: "Collaboration through chromatin: motors of transcription and chromatin structure"
+      authors: "**Nathan Gamarra**, **Geeta J Narlikar**"
+      journal: "Journal of Molecular Biology, 433(14):166876 (2021)"
+      pmid: 33556407
+
+    - title: "HP1 proteins compact DNA into mechanically and positionally stable phase separated domains"
+      authors: "**Madeline M. Keenen**, David Brown, Lucy D. Brennan, Roman Renger, Harrison Khoo, Christopher R. Carlson, Bo Huang, Stephan W. Grill, **Geeta J. Narlikar**, Sy Redding"
+      journal: "eLife, 10:e64563 (2021)"
+      pmid: 33661100
+
+    - title: "Enzymatic Reactions inside Biological Condensates"
+      authors: "Yi Zhang, **Geeta J. Narlikar**, Tatiana G. Kutateladze"
+      journal: "Journal of Molecular Biology, 433(12):166624 (2021)"
+      pmid: 32805219
+
+- year: "2020 and earlier"
+  papers:
+    - title: "Massively multiplex single-molecule oligonucleosome footprinting"
+      authors: "Nour J Abdulhay, Colin P McNally, **Laura J Hsieh**, Sivakanthan Kasinathan, Aidan Keith, Laurel S Estes, Mehran Karimzadeh, Jason G Underwood, Hani Goodarzi, **Geeta J Narlikar**, Vijay Ramani"
+      journal: "eLife, 9:e59404 (2020)"
+      pmid: 33263279
+
+    - title: "Biophysical Properties of HP1-Mediated Heterochromatin"
+      authors: "**Sanulli S**, Gross JD, **Narlikar GJ**"
+      journal: "Cold Spring Harbor Symposia on Quantitative Biology, 84:217–225 (2019)"
+      pmid: 32493764
+
+    - title: "ATP Hydrolysis by the SNF2 Domain of Dnmt5 Is Coupled to Both Specific Recognition and Modification of Hemimethylated DNA"
+      authors: "Dumesic PA, **Stoddard CI**, Catania S, **Narlikar GJ**, Madhani HD"
+      journal: "Molecular Cell, 79(1):127–139.e4 (2020)"
+      pmid: 32437639
+
+    - title: "Zscan4 Binds Nucleosomal Microsatellite DNA and Protects Mouse Two-Cell Embryos From DNA Damage"
+      authors: "Srinivasan R, Nady N, Arora N, **Hsieh LJ**, Swigut T, **Narlikar GJ**, Wossidlo M, Wysocka J"
+      journal: "Science Advances, 6(12):eaaz9115 (2020)"
+      pmid: 32219172
+
+    - title: "Phase-separation in Chromatin Organization"
+      authors: "**Narlikar GJ**"
+      journal: "Journal of Biosciences, 45:5 (2020)"
+      pmid: 31965983
+
+    - title: "Evolutionary Persistence of DNA Methylation for Millions of Years after Ancient Loss of a De Novo Methyltransferase"
+      authors: "Catania S, Dumesic PA, Pimentel H, Nasif A, **Stoddard CI**, Burke JE, Diedrich JK, Cooke S, Shea T, Gienger E, Lintner R, Yates JR 3rd, Hajkova P, **Narlikar GJ**, Cuomo CA, Pritchard JK, Madhani HD"
+      journal: "Cell, 180(2):263–277.e20 (2020)"
+      pmid: 31955845
+
+    - title: "Chromatin topology, condensates and gene regulation: shifting paradigms or just a phase?"
+      authors: "Mir M, Bickmore W, Furlong EEM, **Narlikar G**"
+      journal: "Development, 146(19):dev182766 (2019)"
+      pmid: 31554625
+
+    - title: "HP1 reshapes nucleosome core to promote phase separation of heterochromatin"
+      authors: "**Sanulli S**, Trnka MJ, Dharmarajan V, Tibble RW, Pascal BD, Burlingame AL, Griffin PR, Gross JD, **Narlikar GJ**"
+      journal: "Nature, 575:390–394 (2019)"
+      pmid: 31618757
+
+    - title: "Ion counting demonstrates a high electrostatic field generated by the nucleosome"
+      authors: "Gebala M, **Johnson SL**, **Narlikar GJ**, Herschlag D"
+      journal: "eLife, 8:e44993 (2019)"
+      pmid: 31184587
+
+    - title: "Cryo-EM structures of remodeler-nucleosome intermediates suggest allosteric control through the nucleosome"
+      authors: "Armache JP, **Gamarra N**, **Johnson SL**, **Leonard JD**, Wu S, **Narlikar GJ**, Cheng Y"
+      journal: "eLife, 8:e46057 (2019)"
+      pmid: 31210637
+
+    - title: "A nucleosome bridging mechanism for activation of a maintenance DNA methyltransferase"
+      authors: "**Stoddard CI**, Feng S, Campbell MG, Liu W, Wang H, Zhong X, Bernatavichute Y, Cheng Y, Jacobsen SE, **Narlikar GJ**"
+      journal: "Molecular Cell, 73(1):73–83.e6 (2019)"
+      pmid: 30415948
+
+    - title: "The role of phase separation in heterochromatin formation, function, and regulation"
+      authors: "**Larson AG**, **Narlikar GJ**"
+      journal: "Biochemistry, 57:2540–2548 (2018)"
+      pmid: 29644850
+
+    - title: "The nucleosomal acidic patch relieves auto-inhibition by the ISWI remodeler SNF2h"
+      authors: "**Gamarra N**, **Johnson SL**, Trnka MJ, Burlingame AL, **Narlikar GJ**"
+      journal: "eLife, 7:e35322 (2018)"
+      pmid: 29664398
+
+    - title: "The Yeast INO80 Complex Operates as a Tunable DNA Length-Sensitive Switch to Regulate Nucleosome Sliding"
+      authors: "**Zhou CY**, **Johnson SL**, Lee LJ, Longhurst AD, Beckwith SL, Johnson MJ, Morrison AJ, **Narlikar GJ**"
+      journal: "Molecular Cell, 69(4):677–688.e9 (2018)"
+      pmid: 29452642
+
+    - title: "Biochemical Basis for Distinct Roles of the Heterochromatin Proteins Swi6 and Chp2"
+      authors: "**Isaac RS**, **Sanulli S**, Tibble R, Hornsby M, Ravalin M, Craik CS, Gross JD, **Narlikar GJ**"
+      journal: "Journal of Molecular Biology, 429(23):3666–3677 (2017)"
+      pmid: 28942089
+
+    - title: "Liquid droplet formation by HP1α suggests a role for phase separation in heterochromatin"
+      authors: "**Larson AG**, Elnatan D, **Keenen MM**, Trnka MJ, Johnston JB, Burlingame AL, Agard DA, Redding S, **Narlikar GJ**"
+      journal: "Nature, 547:236–240 (2017)"
+      pmid: 28636604
+
+    - title: "Regulation of Rvb1/Rvb2 by a Domain within the INO80 Chromatin Remodeling Complex Implicates the Yeast Rvbs as Protein Assembly Chaperones"
+      authors: "**Zhou CY**, **Stoddard CI**, Johnston JB, Trnka MJ, Echeverria I, Palovcak E, Sali A, Burlingame AL, Cheng Y, **Narlikar GJ**"
+      journal: "Cell Reports, 19(10):2033–2044 (2017)"
+      pmid: 28591576
+
+    - title: "Distortion of histone octamer core promotes nucleosome mobilization by a chromatin remodeler"
+      authors: "**Sinha KK**, Gross JD, **Narlikar GJ**"
+      journal: "Science, 355:263 (2017)"
+      pmid: 28104838
+
+    - title: "Nucleosome breathing and remodeling constrain CRISPR-Cas9 function"
+      authors: "**Isaac RS**, Jiang F, Doudna JA, Lim WA, **Narlikar GJ**, Almeida R"
+      journal: "eLife, 5:e13450 (2016)"
+      pmid: 27130520
+
+    - title: "A Nucleotide-Driven Switch Regulates Flanking DNA Length Sensing by a Dimeric Chromatin Remodeler"
+      authors: "**Leonard JD**, **Narlikar GJ**"
+      journal: "Molecular Cell, 57(5):850–859 (2015)"
+      pmid: 25684208
+
+    - title: "Mechanisms of functional promiscuity by HP1 proteins"
+      authors: "**Canzio D**, **Larson A**, **Narlikar GJ**"
+      journal: "Trends in Cell Biology, 24(6):377–386 (2014)"
+      pmid: 24618358
+
+    - title: "The histone H4 tail regulates the conformation of the ATP-binding pocket in the SNF2h chromatin remodeling enzyme"
+      authors: "**Racki LR**, Naber N, Pate E, **Leonard JD**, Cooke R, **Narlikar GJ**"
+      journal: "Journal of Molecular Biology, 426:2034–2044 (2014)"
+      pmid: 24607692
+
+    - title: "Mechanisms and Functions of ATP-Dependent Chromatin-Remodeling Enzymes"
+      authors: "**Narlikar GJ**, Sundaramoorthy R, Owen-Hughes T"
+      journal: "Cell, 154(3):490–503 (2013)"
+      pmid: 23911317
+
+    - title: "Division of labor between the chromodomains of HP1 and Suv39 methylase enables coordination of heterochromatin spread"
+      authors: "**Al-Sady B**, Madhani HD, **Narlikar GJ**"
+      journal: "Molecular Cell, 51(1):80–91 (2013)"
+      pmid: 23849629
+
+    - title: "Reconstitution of nucleosome demethylation and catalytic properties of a Jumonji histone demethylase"
+      authors: "Shiau C, Trnka MJ, Bozicevic A, Ortiz-Torres I, **Al-Sady B**, Burlingame AL, **Narlikar GJ**, Fujimori DG"
+      journal: "Chemistry & Biology, 20(4):494–499 (2013)"
+      pmid: 23601638
+
+    - title: "A conformational switch in HP1 releases auto-inhibition to drive heterochromatin assembly"
+      authors: "**Canzio D**, Liao M, Naber N, Pate E, **Larson A**, Wu S, Marina DB, Garcia JF, Madhani HD, Cooke R, Schuck P, Cheng Y, **Narlikar GJ**"
+      journal: "Nature, 496(7445):377–381 (2013)"
+      pmid: 23485968
+
+    - title: "Ers1 links HP1 to RNAi"
+      authors: "Rougemaille M, Braun S, Coyle S, Dumesic PA, Garcia JF, **Isaac RS**, Libri D, **Narlikar GJ**, Madhani HD"
+      journal: "Proc. Natl. Acad. Sci. USA, 109(28):11258–11263 (2012)"
+      pmid: 22733737
+
+    - title: "Analysis of changes in nucleosome conformation using fluorescence resonance energy transfer"
+      authors: "**Shahian T**, **Narlikar GJ**"
+      journal: "Methods in Molecular Biology, 833:337–349 (2012)"
+      pmid: 22183603
+
+    - title: "Structural basis of silencing: Sir3 BAH domain in complex with a nucleosome at 3.0 Å resolution"
+      authors: "Armache KJ, Garlick JD, **Canzio D**, **Narlikar GJ**, Kingston RE"
+      journal: "Science, 334(6058):977–982 (2011)"
+      pmid: 22096199
+
+    - title: "Site-specific acetylation mark on an essential chromatin-remodeling complex promotes resistance to replication stress"
+      authors: "**Charles GM**, Chen C, **Shih SC**, Collins SR, Beltrao P, Zhang X, Sharma T, Tan S, Burlingame AL, Krogan NJ, Madhani HD, **Narlikar GJ**"
+      journal: "Proc. Natl. Acad. Sci. USA, 108:10620–10625 (2011)"
+      pmid: 21673141
+
+    - title: "Chromodomain-Mediated Oligomerization of HP1 Suggests a Nucleosome-Bridging Mechanism for Heterochromatin Assembly"
+      authors: "**Canzio D**, **Chang EY**, Shankar S, Kuchenbecker KM, Simon MD, Madhani HD, **Narlikar GJ**, **Al-Sady B**"
+      journal: "Molecular Cell, 41:67–81 (2011)"
+      pmid: 21211724
+
+    - title: "The ATP-Dependent Remodeler RSC Transfers Histone Dimers and Octamers through the Rapid Formation of an Unstable Encounter Intermediate"
+      authors: "**Rowe CE**, **Narlikar GJ**"
+      journal: "Biochemistry, 49:9882–9890 (2010)"
+      pmid: 20853842
+
+    - title: "The chromatin remodeller ACF acts as a dimeric motor to space nucleosomes"
+      authors: "**Racki LR**, **Yang JG**, Naber N, **Partensky PD**, Acevedo A, Purcell TJ, Cooke R, Cheng Y, **Narlikar GJ**"
+      journal: "Nature, 462:1016–1021 (2009)"
+      pmid: 20033039
+
+    - title: "Dynamics of nucleosome remodelling by individual ACF complexes"
+      authors: "Blosser TR, **Yang JG**, Stone MD, **Narlikar GJ**, Zhuang X"
+      journal: "Nature, 462:1022–1027 (2009)"
+      pmid: 20033040
+
+    - title: "Chromatin Remodelers Act Globally, Sequence Positions Nucleosomes Locally"
+      authors: "**Partensky PD**, **Narlikar GJ**"
+      journal: "Journal of Molecular Biology, 391:12–25 (2009)"
+      pmid: 19450608
+
+    - title: "MacroH2A allows ATP-dependent chromatin remodeling by SWI/SNF and ACF complexes but specifically reduces recruitment of SWI/SNF"
+      authors: "**Chang EY**, Ferreira H, Somers J, Nusinow DA, Owen-Hughes T, **Narlikar GJ**"
+      journal: "Biochemistry, 47:13726–13732 (2008)"
+      pmid: 19035833
+
+    - title: "ATP-dependent chromatin remodeling enzymes: two heads are not better, just different"
+      authors: "**Racki LR**, **Narlikar GJ**"
+      journal: "Current Opinion in Genetics & Development, 18:137–144 (2008)"
+      pmid: 18339542
+
+    - title: "The site-specific installation of methyl-lysine analogs into recombinant histones"
+      authors: "Simon MD, Chu F, **Racki LR**, de la Cruz CC, Burlingame AL, Panning B, **Narlikar GJ**, Shokat KM"
+      journal: "Cell, 128:1003–1012 (2007)"
+      pmid: 17350582
+
+    - title: "FRET-based methods to study ATP-dependent changes in chromatin structure"
+      authors: "**Yang JG**, **Narlikar GJ**"
+      journal: "Methods, 41:291–295 (2007)"
+      pmid: 17309839
+
+    - title: "The chromatin-remodeling enzyme ACF is an ATP-dependent DNA length sensor that regulates nucleosome spacing"
+      authors: "**Yang JG**, **Madrid TS**, **Sevastopoulos E**, **Narlikar GJ**"
+      journal: "Nature Structural & Molecular Biology, 13:1078–1083 (2006)"
+      pmid: 17099699
+
+    - title: "Human ACF1 alters the remodeling strategy of SNF2h"
+      authors: "He X, Fan HY, **Narlikar GJ**, Kingston RE"
+      journal: "Journal of Biological Chemistry, 281:28636–28647 (2006)"
+      pmid: 16877760
+
+    - title: "Heterogeneous nuclear ribonucleoprotein C1/C2, MeCP1, and SWI/SNF form a chromatin remodeling complex at the β-globin locus control region"
+      authors: "Mahajan MC, **Narlikar GJ**, Boyapaty G, Kingston RE, Weissman SM"
+      journal: "Proc. Natl. Acad. Sci. USA, 102:15012–15017 (2005)"
+      pmid: 16217013
+
+    - title: "Noncovalent modification of chromatin: different remodeled products with different ATPase domains"
+      authors: "Fan H-Y, **Narlikar GJ**, Kingston RE"
+      journal: "Cold Spring Harbor Symposia on Quantitative Biology, 69:183–192 (2004)"
+      pmid: 16117648
+
+    - title: "Distinct Strategies to Make Nucleosomal DNA Accessible"
+      authors: "Fan H-Y, He X, Kingston RE, **Narlikar GJ**"
+      journal: "Molecular Cell, 11:1311–1322 (2003)"
+      pmid: 12769854
